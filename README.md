@@ -36,21 +36,15 @@ Syntax Example (demo.skp)
 - println: "{C.G}Calculation Result: {res}{C.END}"
 Command Reference
 Command	Description	Example
-println	Print to console (supports {vars})	println: "Hi {user}"
-typetext	Animated typing effect	typetext: "Loading..."
-var	Define/Update variables	var: { hp: 100 }
-clc	Evaluate math (stores result in res)	clc: "hp - 10"
-def	Define a function	def: { name: "f", do: [] }
-call	Invoke a function	call: "f"
-adopt	Import another .skp file	adopt: "lib_module"
-save	Save variables to a file	save: { file: "save1", vars: ["hp"] }
-exit	Terminate the script	exit: ""
-Color Constants
-Use these inside println or typetext:
-{C.R}: Red
-{C.G}: Green
-{C.Y}: Yellow
-{C.B}: Blue
-{C.END}: Reset color
-License
-This project is licensed under the MIT License.
+
+| Command | Description | Example |
+| :--- | :--- | :--- |
+| `println` | Print to console | `println: "Hi {user}"` |
+| `typetext` | Animated typing effect | `typetext: "Loading..."` |
+| `var` | Define/Update variables | `var: { hp: 100 }` |
+| `clc` | Evaluate math | `clc: "hp - 10"` |
+| `def` | Define a function | `def: { name: "f", do: [] }` |
+| `call` | Invoke a function | `call: "f"` |
+| `adopt` | Import another .skp | `adopt: "lib_module"` |
+| `save` | Save variables | `save: { file: "save1", vars: ["hp"] }` |
+| `exit` | Terminate script | `exit: ""` |
