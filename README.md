@@ -48,3 +48,4 @@ Command	Description	Example
 | `adopt` | Import another .skp | `adopt: "lib_module"` |
 | `save` | Save variables | `save: { file: "save1", vars: ["hp"] }` |
 | `exit` | Terminate script | `exit: ""` |
+| `input` | Get user input and store in variable | `input: "user_name"` |
