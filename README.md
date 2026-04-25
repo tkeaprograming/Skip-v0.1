@@ -34,9 +34,7 @@ Syntax Example (demo.skp)
 # Perform a calculation
 - clc: "10 * 5 + 5"
 - println: "{C.G}Calculation Result: {res}{C.END}"
-Command Reference
-Command	Description	Example
-
+# Command
 | Command | Description | Example |
 | :--- | :--- | :--- |
 | `println` | Print to console | `println: "Hi {user}"` |
